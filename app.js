@@ -3,4 +3,4 @@ var
   app = module.exports = express()
 
 app.
-  use(express.static('public'))
+  use(express.static(__dirname + '/public'))
